@@ -1,7 +1,7 @@
 [![Version](https://img.shields.io/badge/Rimworld-A17-green.svg)](http://rimworldgame.com/)
 # Corrected Workgivers
 
-XML patches that makes "Stone Cutting" depending on the "Construction skill". Because this activity is giving XP in this respectives skills.
+XML patches that makes "Stone Cutting" depending on the "Construction skill". Because "Stone Cutting" is giving XP in this skill.
 
 <p align="center"><img src="https://i.imgur.com/iASqIeV.png?1" alt="Preview"/></p>
 
