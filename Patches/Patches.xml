@@ -8,11 +8,4 @@
     </value>
 </Operation>
 
-<Operation Class="PatchOperationReplace">
-    <xpath>/WorkGivers/WorkGiverDef[defName = "DoBillsMedicalMechanoidOperation"]/workType</xpath>
-    <value>
-        <workType>Doctor</workType>
-    </value>
-</Operation>
-
 </Patch>
