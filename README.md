@@ -3,7 +3,7 @@
 
 XML patches that makes "Stone Cutting" depending on the "Construction skill" and "Operation on Mechanoids" depending on the "Doctoring skill". Because those activities are giving XP in those respectives skills.
 
-<p align="center"><img src="http://i.imgur.com/iASqIeV.png?1" alt="Preview"/></p>
+<p align="center"><img src="https://i.imgur.com/iASqIeV.png?1" alt="Preview"/></p>
 
 > Be cautious to plan your work priorities accordingly.
 
