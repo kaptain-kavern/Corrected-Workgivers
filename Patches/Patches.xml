@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/WorkGivers/WorkGiverDef[defName = "DoBillsStonecut"]/workType</xpath>
+    <value>
+        <workType>Construction</workType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/WorkGivers/WorkGiverDef[defName = "DoBillsMedicalMechanoidOperation"]/workType</xpath>
+    <value>
+        <workType>Doctor</workType>
+    </value>
+</Operation>
+
+</Patch>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<ModMetaData>
+		<name>Corrected WorkGivers</name>
+		<author>kaptain_kavern</author>
+		<url></url>
+		<targetVersion>0.17.0</targetVersion>
+		<description>XML patches that makes "Stone Cutting" depending on the "Construction skill" and "Operation on Mechanoids" depending on the "Doctoring skill". Because those activities are giving XP in those respectives skills.
+
+Be cautious to plan your work priorities accordingly.</description>
+
+	</ModMetaData>
