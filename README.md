@@ -5,6 +5,6 @@ XML patches that makes "Stone Cutting" depending on the "Construction skill" and
 
 > Be cautious to plan your work priorities accordingly.
 
-# Thanks
+### Thanks
 
 Thanks to XeoNovaDan, it was while reading the code of "Plant Cutting is for Growers!" that I thought about that.
