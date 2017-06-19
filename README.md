@@ -14,8 +14,8 @@ Also contain a XML patches that makes "Stone Cutting" depending on the "Construc
 
 <p align="center"><img src="https://i.imgur.com/iASqIeV.png?1" alt="Preview"/></p>
 
-> Be cautious to plan your work priorities accordingly.
-> Note that now harvesting wood on tree can fail. 
+> Be cautious to plan your work priorities accordingly.              
+> Note that now harvesting wood on tree can fail.                           
 > I highly recommend mixing it with XeoNovaDan's "[Plant cutting is for growers](https://ludeon.com/forums/index.php?topic=29002)" which shows the relevant skills. - _Mehni_
 
 ### Thanks
