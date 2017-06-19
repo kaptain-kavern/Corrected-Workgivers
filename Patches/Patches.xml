@@ -1,38 +1,52 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-
+<!-- DoBillsStonecut is now tied to Construction -->
 <Operation Class="PatchOperationReplace">
     <xpath>/WorkGivers/WorkGiverDef[defName = "DoBillsStonecut"]/workType</xpath>
     <value>
         <workType>Construction</workType>
     </value>
 </Operation>
-
+<!-- FixBrokenDownBuilding is now tied to Repair -->
 <Operation Class="PatchOperationReplace">
     <xpath>/WorkGivers/WorkGiverDef[defName = "FixBrokenDownBuilding"]/workType</xpath>
     <value>
         <workType>Repair</workType>
     </value>
 </Operation>
-
+<!-- Repair is now tied to Repair -->
 <Operation Class="PatchOperationReplace">
     <xpath>/WorkGivers/WorkGiverDef[defName = "Repair"]/workType</xpath>
     <value>
         <workType>Repair</workType>
     </value>
 </Operation>
-
+<!-- Updating Construction description field to remove repairing mention -->
 <Operation Class="PatchOperationReplace">
-    <xpath>/WorkGivers/WorkGiverDef[defName = "Construction"]/description</xpath>
+    <xpath>/WorkTypeDefs/WorkTypeDef[defName = "Construction"]/description</xpath>
     <value>
         <description>Build things that you've designated.</description>
     </value>
 </Operation>
-
+<!-- DoBillsMedicalMechanoidOperation is now tied to Repair -->
 <Operation Class="PatchOperationReplace">
     <xpath>/WorkGivers/WorkGiverDef[defName = "DoBillsMedicalMechanoidOperation"]/workType</xpath>
     <value>
         <workType>Repair</workType>
+    </value>
+</Operation>
+<!-- GrowerHarvest is now tied to PlantCutting -->
+<Operation Class="PatchOperationReplace">
+    <xpath>/WorkGivers/WorkGiverDef[defName = "GrowerHarvest"]/workType</xpath>
+    <value>
+        <workType>PlantCutting</workType>
+    </value>
+</Operation>
+<!-- Harvesting tree is now failable as counterbalance -->
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[@Name = "TreeBase"]/plant/harvestFailable</xpath>
+    <value>
+        <harvestFailable>true</harvestFailable>
     </value>
 </Operation>
 
