@@ -4,7 +4,9 @@
 		<author>kaptain_kavern</author>
 		<url></url>
 		<targetVersion>0.17.0</targetVersion>
-		<description>XML patches that makes "Stone Cutting" depending on the "Construction skill" and bring back the old "Repair" worktype
+		<description>Re-introduce the old "Repair" worktype, so now Construction and Repair are two different skills in the work-planner.
+
+Also contain a XML patches that makes "Stone Cutting" depending on the "Construction skill" and bring back the old "Repair" worktype
 
 Be cautious to plan your work priorities accordingly.</description>
 

@@ -1,7 +1,9 @@
 [![Version](https://img.shields.io/badge/Rimworld-A17-green.svg)](http://rimworldgame.com/)
 # Corrected Workgivers
 
-XML patches that makes "Stone Cutting" depending on the "Construction skill". Because "Stone Cutting" is giving XP in this skill.
+Re-introduce the old "Repair" worktype, so now Construction and Repair are two different skills in the work-planner.
+
+Also contain a XML patches that makes "Stone Cutting" depending on the "Construction skill". Because "Stone Cutting" is giving XP in this skill.
 
 <p align="center"><img src="https://i.imgur.com/iASqIeV.png?1" alt="Preview"/></p>
 
