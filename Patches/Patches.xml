@@ -23,6 +23,13 @@
 </Operation>
 
 <Operation Class="PatchOperationReplace">
+    <xpath>/WorkGivers/WorkGiverDef[defName = "Construction"]/description</xpath>
+    <value>
+        <description>Build things that you've designated.</description>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
     <xpath>/WorkGivers/WorkGiverDef[defName = "DoBillsMedicalMechanoidOperation"]/workType</xpath>
     <value>
         <workType>Repair</workType>
