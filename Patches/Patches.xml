@@ -8,4 +8,25 @@
     </value>
 </Operation>
 
+<Operation Class="PatchOperationReplace">
+    <xpath>/WorkGivers/WorkGiverDef[defName = "FixBrokenDownBuilding"]/workType</xpath>
+    <value>
+        <workType>Repair</workType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/WorkGivers/WorkGiverDef[defName = "Repair"]/workType</xpath>
+    <value>
+        <workType>Repair</workType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/WorkGivers/WorkGiverDef[defName = "DoBillsMedicalMechanoidOperation"]/workType</xpath>
+    <value>
+        <workType>Repair</workType>
+    </value>
+</Operation>
+
 </Patch>
