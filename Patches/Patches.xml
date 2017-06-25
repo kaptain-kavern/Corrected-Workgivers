@@ -42,11 +42,39 @@
         <workType>PlantCutting</workType>
     </value>
 </Operation>
+<!-- Updating GrowerHarvest label field -->
+<Operation Class="PatchOperationReplace">
+    <xpath>/WorkGivers/WorkGiverDef[defName = "GrowerHarvest"]/label</xpath>
+    <value>
+        <label>harvest plants</label>
+    </value>
+</Operation>
 <!-- Harvesting tree is now failable as counterbalance -->
 <Operation Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[@Name = "TreeBase"]/plant/harvestFailable</xpath>
     <value>
         <harvestFailable>true</harvestFailable>
+    </value>
+</Operation>
+<!-- Updating Growing description field to remove harvesting mention -->
+<Operation Class="PatchOperationReplace">
+    <xpath>/WorkTypeDefs/WorkTypeDef[defName = "Growing"]/description</xpath>
+    <value>
+        <description>Plant seeds in crops.</description>
+    </value>
+</Operation>
+<!-- Updating Growing labelShort field to Sow -->
+<Operation Class="PatchOperationReplace">
+    <xpath>/WorkTypeDefs/WorkTypeDef[defName = "Growing"]/labelShort</xpath>
+    <value>
+        <labelShort>Sow</labelShort>
+    </value>
+</Operation>
+<!-- Updating PlantCutting description field -->
+<Operation Class="PatchOperationReplace">
+    <xpath>/WorkTypeDefs/WorkTypeDef[defName = "PlantCutting"]/description</xpath>
+    <value>
+        <description>Harvest in crops or cut plants as designated.</description>
     </value>
 </Operation>
 
