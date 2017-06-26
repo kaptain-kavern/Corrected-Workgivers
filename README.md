@@ -8,6 +8,8 @@ Re-introduce the old "Repair" worktype, so now Construction and Repair are two d
 _________
 
 Moves harvesting work type into the plant cutting category so you can now prioritize harvesting over sowing. As a counterbalance, trees can "harvest fail".
+
+<p align="center"><img src="http://i.imgur.com/isfSEUG.png?2" alt="Preview"/></p>
 _________
 
 Also contain a XML patches that makes "Stone Cutting" depending on the "Construction skill". Because "Stone Cutting" is giving XP in this skill.
