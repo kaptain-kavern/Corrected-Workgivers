@@ -1,4 +1,4 @@
-[![Version](https://img.shields.io/badge/Rimworld-A17-green.svg)](http://rimworldgame.com/)
+[![Version](https://img.shields.io/badge/Rimworld-B18-green.svg)](http://rimworldgame.com/)
 # Corrected Workgivers
 
 Re-introduce the old "Repair" worktype, so now Construction and Repair are two different skills in the work-planner.
