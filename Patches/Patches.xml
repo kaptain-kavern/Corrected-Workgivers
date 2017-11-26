@@ -2,49 +2,49 @@
 <Patch>
 <!-- DoBillsStonecut is now tied to Construction -->
 <Operation Class="PatchOperationReplace">
-    <xpath>/WorkGivers/WorkGiverDef[defName = "DoBillsStonecut"]/workType</xpath>
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsStonecut"]/workType</xpath>
     <value>
         <workType>Construction</workType>
     </value>
 </Operation>
 <!-- FixBrokenDownBuilding is now tied to Repair -->
 <Operation Class="PatchOperationReplace">
-    <xpath>/WorkGivers/WorkGiverDef[defName = "FixBrokenDownBuilding"]/workType</xpath>
+    <xpath>/Defs/WorkGiverDef[defName = "FixBrokenDownBuilding"]/workType</xpath>
     <value>
         <workType>Repair</workType>
     </value>
 </Operation>
 <!-- Repair is now tied to Repair -->
 <Operation Class="PatchOperationReplace">
-    <xpath>/WorkGivers/WorkGiverDef[defName = "Repair"]/workType</xpath>
+    <xpath>/Defs/WorkGiverDef[defName = "Repair"]/workType</xpath>
     <value>
         <workType>Repair</workType>
     </value>
 </Operation>
 <!-- Updating Construction description field to remove repairing mention -->
 <Operation Class="PatchOperationReplace">
-    <xpath>/WorkTypeDefs/WorkTypeDef[defName = "Construction"]/description</xpath>
+    <xpath>/Defs/WorkTypeDef[defName = "Construction"]/description</xpath>
     <value>
         <description>Build things that you've designated.</description>
     </value>
 </Operation>
 <!-- DoBillsMedicalMechanoidOperation is now tied to Repair -->
 <Operation Class="PatchOperationReplace">
-    <xpath>/WorkGivers/WorkGiverDef[defName = "DoBillsMedicalMechanoidOperation"]/workType</xpath>
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsMedicalMechanoidOperation"]/workType</xpath>
     <value>
         <workType>Repair</workType>
     </value>
 </Operation>
 <!-- GrowerHarvest is now tied to PlantCutting -->
 <Operation Class="PatchOperationReplace">
-    <xpath>/WorkGivers/WorkGiverDef[defName = "GrowerHarvest"]/workType</xpath>
+    <xpath>/Defs/WorkGiverDef[defName = "GrowerHarvest"]/workType</xpath>
     <value>
         <workType>PlantCutting</workType>
     </value>
 </Operation>
 <!-- Updating GrowerHarvest label field -->
 <Operation Class="PatchOperationReplace">
-    <xpath>/WorkGivers/WorkGiverDef[defName = "GrowerHarvest"]/label</xpath>
+    <xpath>/Defs/WorkGiverDef[defName = "GrowerHarvest"]/label</xpath>
     <value>
         <label>harvest plants</label>
     </value>
@@ -58,21 +58,21 @@
 </Operation>
 <!-- Updating Growing description field to remove harvesting mention -->
 <Operation Class="PatchOperationReplace">
-    <xpath>/WorkTypeDefs/WorkTypeDef[defName = "Growing"]/description</xpath>
+    <xpath>/Defs/WorkTypeDef[defName = "Growing"]/description</xpath>
     <value>
         <description>Plant seeds in crops.</description>
     </value>
 </Operation>
 <!-- Updating Growing labelShort field to Sow -->
 <Operation Class="PatchOperationReplace">
-    <xpath>/WorkTypeDefs/WorkTypeDef[defName = "Growing"]/labelShort</xpath>
+    <xpath>/Defs/WorkTypeDef[defName = "Growing"]/labelShort</xpath>
     <value>
         <labelShort>Sow</labelShort>
     </value>
 </Operation>
 <!-- Updating PlantCutting description field -->
 <Operation Class="PatchOperationReplace">
-    <xpath>/WorkTypeDefs/WorkTypeDef[defName = "PlantCutting"]/description</xpath>
+    <xpath>/Defs/WorkTypeDef[defName = "PlantCutting"]/description</xpath>
     <value>
         <description>Harvest in crops or cut plants as designated.</description>
     </value>
