@@ -49,13 +49,6 @@
         <label>harvest plants</label>
     </value>
 </Operation>
-<!-- Harvesting tree is now failable as counterbalance -->
-<Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[@Name = "TreeBase"]/plant/harvestFailable</xpath>
-    <value>
-        <harvestFailable>true</harvestFailable>
-    </value>
-</Operation>
 <!-- Updating Growing description field to remove harvesting mention -->
 <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkTypeDef[defName = "Growing"]/description</xpath>

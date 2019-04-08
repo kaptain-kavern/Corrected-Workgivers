@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 	<ModMetaData>
 		<name>Corrected WorkGivers</name>
-		<author>kaptain_kavern</author>
-		<url></url>
-		<targetVersion>0.18.0</targetVersion>
+		<author>KapTaiN_KaVerN</author>
+		<url>https://github.com/kaptain-kavern/Corrected-Workgivers</url>
+		<supportedVersions>
+	    <li>1.0</li>
+	  </supportedVersions>
 		<description>Re-introduce the old "Repair" work type, so now Construction and Repair are two different skills in the work-planner.
 
-Moves harvesting work type into the plant cutting category so you can now prioritize harvesting over sowing. As a counterbalance, trees can "harvest fail".
+Moves harvesting work type into the plant cutting category so you can now prioritize harvesting over sowing.
 
 Also contain a XML patches that makes "Stone Cutting" depending on the "Construction skill" and bring back the old "Repair" work type.
 
 =====================================================================
 
 - Be cautious to plan your work priorities accordingly.
-- Note that now harvesting wood on tree can fail.
-- I highly recommend mixing it with XeoNovaDan's "Plant cutting is for growers" which shows the relevant skills. - Mehni
 
 =====================================================================
 
 Icon used in the Preview made by Freepik from www.flaticon.com and is licensed by CC 3.0 BY</description>
-
-	</ModMetaData>
+ </ModMetaData>
